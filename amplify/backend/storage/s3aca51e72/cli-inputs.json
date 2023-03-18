@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3aca51e72",
+  "policyUUID": "aca51e72",
+  "bucketName": "findhouse987f2d1c68d64022a314f989eb240923",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
