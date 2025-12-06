@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import "@aws-amplify/ui-react/styles.css";
+import "@aws-amplify/ui-react/dist/styles.css";
 import { API, Storage } from "aws-amplify";
 import {
   Button,
@@ -116,7 +116,7 @@ const App = ({ signOut }) => {
             {note.image && (
               <Image
                 src={note.image}
-                alt={`visual aid for ${notes.name}`}
+                alt={`visual aid for ${note.name}`}
                 style={{ width: 400 }}
               />
             )}
